@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+    <!--for github and linkedin logos-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+    <!---for fonts-->
+    <link rel="preconnect" href="https://fonts.googleopis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;300&display=swap" rel="stylesheet">
+
+    <title>Joonas Lahti</title>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <!---Navigation bar starts-->
+            <nav class="navbar">
+                <div class="logo">
+                    <img src="media/logo-white.png" alt="Logo" class="logo-img">
+                </div>
+                <ul class="nav-links">
+                    <li class="nav-item">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#experience">Experience</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#hobbies">Hobbies</a>
+                    </li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="separator"></div>
+                <div class="social-icons">
+                    <a href="https://github.com/Joolahi?tab=repositories">
+                        <svg class="icons" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512">
+                            <path
+                                d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+                        </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/joonas-lahti-279766258/">
+                        <svg class="icons" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512">
+                            <path
+                                d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+                        </svg>
+                    </a>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+
+    <!--- Intoduction section--->
+    <section class="introduction">
+        <div class="card">
+            <img src="media/person.jpg" alt="Profile Picture" class="profile-picture">
+        </div>
+        <p class="hello-text">Hi, my name is</p>
+        <h1 class="name">Joonas Lahti</h1>
+        <p class="hello-text-2">-information and communication technology student</p>
+    </section>
+
+    <!---About section--->
+    <section class="about" id="about">
+        <h2 class="section-title">About</h2>
+        <p class="about-text">
+            I am a 25-years-old information and communication technology student from Finland. I am studying at the
+            moment
+            in Jyväskylä University of Applied Sciences. I am currently in my fourth year of University of Applied
+            Sciences. I studied for 2
+            years at Centria University of Applied Sciences in Kokkola
+            and after that I changed schools to Jyväskylä.
+            <br>
+            I have a strong background in working in a team, as I am a former competitive athlete. I have played
+            baseball since I
+            was a child, and I have played at the SM-level for 3 years as an adult.
+            So I am social by nature and I get along well with all kinds of people. My sports career has also brought me
+            determination and the ability to pursue the team's interests.
+            <br>
+            I am interested in software development.
+            My main programming languages are C# (C Sharp), Python, and JavaScript.
+            In addition to that i have experience working with Docker and AWS as well.
+         <br>
+        </p>
+    </section>
+
+    <!---Experience section--->
+    <section class="experience" id="experience">
+        <h2 class="section-title">
+            Experience
+        </h2>
+        <div class="experience-headers">
+            <div class="child-header">Education</div>
+            <div class="child-header">Working experience</div>
+        </div>
+        <div class="timeline">
+            <div class="education">
+
+                <div class="content-education">
+                    <h3>Jyväskylä University of Applied Sciences</h3>
+                    <p>2022 - present</p>
+                    <p>Information and communication technology</p>
+                    <p>Bachelor of Engineering</p>
+                </div>
+
+                <div class="content-education">
+                    <h3>Centria University of Applied Sciences</h3>
+                    <p>2020 - 2022</p>
+                    <p>Information and communication technology</p>
+                    <p>Bachelor of Engineering</p>
+                </div>
+                <div class="content-education">
+                    <h3>Sotkamo Sport High School</h3>
+                    <p>2014 - 2017</p>
+                    <p>Finished matriculation examination</p>
+                </div>
+            </div>
+
+            <div class="work">
+
+                <div class="content-work">
+                    <h3>Kemppi Oy</h3>
+                    <p>2023</p>
+                    <p>System and Interfaces software developer</p>
+                    <p>-Trainee</p>
+                </div>
+                <div class="content-work">
+                    <h3>Peltisepänliike Nykänen</h3>
+                    <p>2019 - 2022</p>
+                    <p>Ventilation installation and metal works</p>
+                </div>
+                <div class="content-work">
+                    <h3>Kitinvapari Kannus</h3>
+                    <p>2019</p>
+                    <p>Lifeguard and small exercise guides</p>
+                </div>
+            </div>
+
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!---Portfolio section-->
+    <section class="portfolio" id="portfolio">
+        <h2 class="section-title">Portfolio</h2>
+        <div class="portfolio-container">
+            <a class="portfolio-cards" href="https://github.com/Joolahi/MobileDevelopment" >
+                <h3 class="card-headers">
+                    Mobile Application Development
+                </h3>
+                <img src="media/mobile.jpg" alt="MobileDevelopment" height="240" width="320">
+            </a>
+
+            <a class="portfolio-cards" href="https://github.com/Joolahi/Web-User-Interface">
+                <h3 class="card-headers">
+                    Web User Interface Programming
+                </h3>
+                <img src="media/webuser.jpg" alt="Web-User-Interface" height="240" width="320">
+            </a>
+
+            <a class="portfolio-cards" href="https://github.com/Joolahi/Basics-of-Csharp">
+                <h3 class="card-headers">
+                    C# Programming
+                </h3>
+                <img src="media/csharp.jpg" alt="csharp" height="240" width="320">
+            </a>
+
+            <a class="portfolio-cards" href="https://github.com/Joolahi/Skill">
+                <h3 class="card-headers">
+                    Skill Collector               
+                </h3>
+                <img src="media/skill.jpg" alt="SkillCollector" height="240" width="320">
+            </a>
+        </div>
+    </section>
+
+    <!---Hobbies section-->
+    <section class="hobbies" id="hobbies">
+        <div>
+            <h2 class="section-title">Hobbies</h2>
+            <div class="hobbies-container">
+                <div class="hobbies-cards">
+                    <h3 class="card-headers">
+                        Finnish Baseball
+                    </h3>
+                    <p class="hobbies-text">
+                        I don't play activately finnish baseball anymore but I am still big fan of it! I need to mention it because I were semi-professional player and I have won 2 finnish championship bronzes in junior leagues!
+                    </p>
+                    <img src="media/pallo.jpg" alt="FinnishBaseball" height="240" width="400">
+                </div>
+
+                <div class="hobbies-cards">
+                    <h3 class="card-headers">
+                        Gym
+                    </h3>
+                    <p class="hobbies-text">This is my lovely hobby and my way to relax and relieve pressure.  </p>
+                    <img src="media/gym.jpg" alt="Gym" height="240" width="400">
+                </div>
+
+                <div class="hobbies-cards">
+                    <h3 class="card-headers">
+                        Music
+                    </h3>
+                    <p class="hobbies-text">
+                        Music was my hobby when I was younger and I had to stop because all the sports stuff was taking up all my time.
+                        Nowadays, from the days when I have more time to spend on all my hobbies, playing the guitar has become a big part of my
+                        everyday life.
+                    </p>
+                    <img src="media/music.jpg" alt="guitar" height="240" width="320">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Footer-->
+    <section class="footer">
+        <div class="footer-container">
+            <p class="footer-text">© Joonas Lahti</p>
+            <p>Pictures that are used on site are free to use photos from Pexels</p>
+        </div>
+    </section>
+
+    <script src=" script.js"></script>
+</body>
+
+</html>
